@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logo Generator Dashboard</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        button { padding: 15px 30px; font-size: 18px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 5px; }
+        .download { background: #28a745; margin-top: 20px; text-decoration: none; display: inline-block; }
+    </style>
+</head>
+<body>
+    <h1>Logo Generator Control Panel</h1>
+    
+    <form action="/api/generate/" method="POST">
+        <input type="number" name="count" value="10">
+        <button type="submit">Generate Images</button>
+    </form>
+
+    <br>
+    <a href="/api/download/" class="button download">Download Latest Dataset (.zip)</a>
+</body>
+</html>

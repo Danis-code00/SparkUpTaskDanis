@@ -1,0 +1,8 @@
+path: D:\Personal (Academic)\SparkUpTaskDanis\Week 4\dataset
+train: train/images
+val: val/images
+
+names:
+  0: Brand_A
+  1: Brand_B
+  2: Brand_C
